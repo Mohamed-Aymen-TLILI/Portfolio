@@ -1,25 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import GlobalStyle from "./globalStyles";
+import Home from "./pages/HomePage/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
+import Shop from "./pages/Shop/Shop";
+import CV from "./components/Cv/Cv";
+import MovieFilm from "./components/Film/moviefilm";
+import Contact from "./pages/Contact/Contact";
+import Portfolio from "./pages/Portfolio/Portfolio";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <GlobalStyle />
+      <ScrollToTop />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/shop" component={Shop} />
+        <Route path="/cv" component={CV} />
+        <Route path="/film" component={MovieFilm} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/portfolio" component={Portfolio} />
+      </Switch>
+    </Router>
   );
 }
 
