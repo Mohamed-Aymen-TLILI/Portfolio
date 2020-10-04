@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6dc99f59.chunk.css",
+    "main.js": "/Portfolio/static/js/main.6dafd6d6.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6dafd6d6.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e3b9ca47.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e3b9ca47.js.map",
+    "static/css/2.8cb39760.chunk.css": "/Portfolio/static/css/2.8cb39760.chunk.css",
+    "static/js/2.f63b89ec.chunk.js": "/Portfolio/static/js/2.f63b89ec.chunk.js",
+    "static/js/2.f63b89ec.chunk.js.map": "/Portfolio/static/js/2.f63b89ec.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.a9bb856917036280fb0e562154f1a461.js": "/Portfolio/precache-manifest.a9bb856917036280fb0e562154f1a461.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/2.8cb39760.chunk.css.map": "/Portfolio/static/css/2.8cb39760.chunk.css.map",
+    "static/css/main.6dc99f59.chunk.css.map": "/Portfolio/static/css/main.6dc99f59.chunk.css.map",
+    "static/js/2.f63b89ec.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f63b89ec.chunk.js.LICENSE.txt",
+    "static/js/main.6dafd6d6.chunk.js.LICENSE.txt": "/Portfolio/static/js/main.6dafd6d6.chunk.js.LICENSE.txt",
+    "static/media/angular.svg": "/Portfolio/static/media/angular.abfc3b93.svg",
+    "static/media/semantic.min.css": "/Portfolio/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/css.svg": "/Portfolio/static/media/css.6971ddc7.svg",
+    "static/media/flutter.svg": "/Portfolio/static/media/flutter.faf8f499.svg",
+    "static/media/microsoft.svg": "/Portfolio/static/media/microsoft.f32b3f89.svg",
+    "static/media/nodejs.svg": "/Portfolio/static/media/nodejs.a1231528.svg",
+    "static/media/php.svg": "/Portfolio/static/media/php.7634d1a3.svg",
+    "static/media/profile.jpg": "/Portfolio/static/media/profile.7a4e1c77.jpg",
+    "static/media/react.svg": "/Portfolio/static/media/react.c3fbd71b.svg",
+    "static/media/sass.svg": "/Portfolio/static/media/sass.b446ca5a.svg",
+    "static/media/svg-1.svg": "/Portfolio/static/media/svg-1.532cde0d.svg",
+    "static/media/svg-2.svg": "/Portfolio/static/media/svg-2.59389695.svg",
+    "static/media/svg-3.svg": "/Portfolio/static/media/svg-3.d11196fd.svg",
+    "static/media/svg-4.svg": "/Portfolio/static/media/svg-4.163d261b.svg",
+    "static/media/symfony.svg": "/Portfolio/static/media/symfony.ed9c8446.svg",
+    "static/media/video.mp4": "/Portfolio/static/media/video.0e7ef2c1.mp4",
+    "static/media/vue.svg": "/Portfolio/static/media/vue.69cedcf3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3b9ca47.js",
+    "static/css/2.8cb39760.chunk.css",
+    "static/js/2.f63b89ec.chunk.js",
+    "static/css/main.6dc99f59.chunk.css",
+    "static/js/main.6dafd6d6.chunk.js"
+  ]
+}
