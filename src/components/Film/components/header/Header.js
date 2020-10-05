@@ -12,10 +12,10 @@ export default class Header extends Component {
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <NavLink to="/film" className="nav-link" activeClassName="active" > Films </NavLink>
+              <NavLink to="/Portfolio/film" className="nav-link" activeClassName="active" > Films </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/favoris" className="nav-link" activeClassName="active"> Favoris </NavLink>
+              <NavLink to="/Portfolio/favoris" className="nav-link" activeClassName="active"> Favoris </NavLink>
             </li>
           </ul>
         </div>
