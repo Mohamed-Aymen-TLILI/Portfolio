@@ -15,12 +15,12 @@ function App() {
       <GlobalStyle />
       <ScrollToTop />
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/shop" component={Shop} />
-        <Route path="/cv" component={CV} />
-        <Route path="/film" component={MovieFilm} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/exemple" component={Portfolio} />
+        <Route path="/Portfolio" exact component={Home} />
+        <Route path="/Portfolio/shop" component={Shop} />
+        <Route path="/Portfolio/cv" component={CV} />
+        <Route path="/Portfolio/film" component={MovieFilm} />
+        <Route path="/Portfolio/contact" component={Contact} />
+        <Route path="/Portfolio/exemple" component={Portfolio} />
       </Switch>
     </Router>
   );

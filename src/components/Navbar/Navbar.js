@@ -41,7 +41,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo to="/" onClick={closeMobileMenu}>
+            <NavLogo to="/Portfolio" onClick={closeMobileMenu}>
               <NavIcon />
               Aymen
             </NavLogo>
@@ -50,22 +50,22 @@ function Navbar() {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to="/exemple" onClick={closeMobileMenu}>
+                <NavLinks to="/Portfolio/exemple" onClick={closeMobileMenu}>
                   Portfolio
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/contact" onClick={closeMobileMenu}>
+                <NavLinks to="/Portfolio/contact" onClick={closeMobileMenu}>
                   Contact
                 </NavLinks>
               </NavItem>
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to="/">
+                  <NavBtnLink to="/Portfolio">
                     <Button primary>Home</Button>
                   </NavBtnLink>
                 ) : (
-                  <NavBtnLink to="/">
+                  <NavBtnLink to="/Portfolio">
                     <Button onClick={closeMobileMenu} fontBig primary>
                       Home
                     </Button>

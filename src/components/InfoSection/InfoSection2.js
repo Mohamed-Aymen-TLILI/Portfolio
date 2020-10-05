@@ -38,10 +38,7 @@ function InfoSection2({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link
-                  to="/shop"
-                  target="_blank"
-                >
+                <Link to="/Portfolio/shop" target="_blank">
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
