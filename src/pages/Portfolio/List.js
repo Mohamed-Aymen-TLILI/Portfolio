@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { Button } from '../../globalStyles';
 import {  RiFileList3Line } from "react-icons/ri";
 import { FaThList } from "react-icons/fa";
@@ -36,7 +37,7 @@ function List() {
                 <Button primary>View</Button>
               </ListCardInfo>
             </ListCard>
-            <ListCard to={{ pathname: "https://mohamed-aymen-tlili.github.io/cv-react/" }} target="_blank">
+            <ListCard  > <Link to={{ pathname: "https://github.com/Mohamed-Aymen-TLILI" }} target="_blank" >
               <ListCardInfo>
                 <ListCardIcon>
                   <FaThList />
