@@ -25,7 +25,7 @@ function List() {
         <ListWrapper>
           <ListHeading>Portfolio</ListHeading>
           <ListContainer>
-            <ListCard to="/Portfolio/cv" target="_blank">
+            <ListCard to={{ pathname: "https://github.com/Mohamed-Aymen-TLILI" }} target="_blank">
               <ListCardInfo>
                 <ListCardIcon>
                   <RiFileList3Line />
@@ -37,7 +37,7 @@ function List() {
                 <Button primary>View</Button>
               </ListCardInfo>
             </ListCard>
-            <ListCard  > <Link to={{ pathname: "https://github.com/Mohamed-Aymen-TLILI" }} target="_blank" >
+            <ListCard to={{ pathname: "https://github.com/Mohamed-Aymen-TLILI" }} target="_blank"> 
               <ListCardInfo>
                 <ListCardIcon>
                   <FaThList />
