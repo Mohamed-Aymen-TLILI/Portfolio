@@ -36,7 +36,7 @@ function List() {
                 <Button primary>View</Button>
               </ListCardInfo>
             </ListCard>
-            <ListCard to="/Portfolio/film" target="_blank">
+            <ListCard to={{ pathname: "https://mohamed-aymen-tlili.github.io/cv-react/" }} target="_blank">
               <ListCardInfo>
                 <ListCardIcon>
                   <FaThList />
