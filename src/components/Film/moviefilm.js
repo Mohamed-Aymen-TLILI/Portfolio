@@ -84,7 +84,7 @@ class MovieFilm extends Component {
         <div className="App d-flex flex-column">
           <Header />
           <Switch>
-            <Route path="/film" render={ (props) => {
+            <Route path="/Portfolio/film" render={ (props) => {
               return (
                 <Films
                   { ...props } 
@@ -99,7 +99,7 @@ class MovieFilm extends Component {
                 />
               )
             }} />
-            <Route path="/favoris" render={ (props) => {
+            <Route path="/Portfolio/favoris" render={ (props) => {
               return (
                 <Favoris 
                   { ...props } 
@@ -109,7 +109,7 @@ class MovieFilm extends Component {
                 />
               )
             }} />
-            <Redirect to="/film" />
+            <Redirect to="/Portfolio/film" />
           </Switch>
          
         </div>
