@@ -24,7 +24,7 @@ function List() {
         <ListWrapper>
           <ListHeading>Portfolio</ListHeading>
           <ListContainer>
-            <ListCard to="/cv">
+            <ListCard to="/cv" target="_blank">
               <ListCardInfo>
                 <ListCardIcon>
                   <RiFileList3Line />
@@ -36,7 +36,7 @@ function List() {
                 <Button primary>View</Button>
               </ListCardInfo>
             </ListCard>
-            <ListCard to="/film">
+            <ListCard to="/film" target="_blank">
               <ListCardInfo>
                 <ListCardIcon>
                   <FaThList />
@@ -48,7 +48,7 @@ function List() {
                 <Button primary>View</Button>
               </ListCardInfo>
             </ListCard>
-            <ListCard to="/shop">
+            <ListCard to="/shop" target="_blank">
               <ListCardInfo>
                 <ListCardIcon>
                   <GiShoppingCart />

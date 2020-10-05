@@ -20,7 +20,7 @@ function App() {
         <Route path="/cv" component={CV} />
         <Route path="/film" component={MovieFilm} />
         <Route path="/contact" component={Contact} />
-        <Route path="/exemples" component={Portfolio} />
+        <Route path="/exemple" component={Portfolio} />
       </Switch>
     </Router>
   );

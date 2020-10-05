@@ -50,7 +50,7 @@ function Navbar() {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to="/exemples" onClick={closeMobileMenu}>
+                <NavLinks to="/exemple" onClick={closeMobileMenu}>
                   Portfolio
                 </NavLinks>
               </NavItem>
