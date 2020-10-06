@@ -38,7 +38,9 @@ function InfoSection0({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to="/Portfolio/film" target="_blank">
+                <Link to={{
+                  pathname: "https://mohamed-aymen-tlili.github.io/movies/",
+                }} target="_blank">
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
