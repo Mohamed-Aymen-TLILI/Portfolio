@@ -38,7 +38,9 @@ function InfoSection2({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to={{ pathname: "https://github.com/Mohamed-Aymen-TLILI" }} target="_blank">
+                <Link to={{
+                  pathname: "https://mohamed-aymen-tlili.github.io/cv-aymen/",
+                }} target="_blank">
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
