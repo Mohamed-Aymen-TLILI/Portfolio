@@ -40,7 +40,7 @@ function List() {
               </ListCardInfo>
             </ListCard>
             <ListCard to={{
-                pathname: "https://mohamed-aymen-tlili.github.io/cv-aymen/"
+                pathname: "https://mohamed-aymen-tlili.github.io/movies/"
               }} target="_blank"> 
               <ListCardInfo>
                 <ListCardIcon>
